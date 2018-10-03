@@ -31,5 +31,8 @@ fields:
   - type: text
     name: disqusShortname
     label: Disqus Shortname
+  - type: text
+    name: googleAnalytics
+    label: Google Analytics Tracking Code
 pages:
 - config.toml
