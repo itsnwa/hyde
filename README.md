@@ -32,32 +32,6 @@ The easiest option in our opinion is Netlify. It's quick to setup and relatively
 
 The more powerful option is deployment to AWS and makes sense if you have experience with S3 and Cloudformation.
 
-## Options
-
-Hyde includes some customizable options, typically applied via classes on the `<body>` element.
-
-### Sidebar menu
-
-Create a list of nav links in the sidebar by assigning "menu=main" in the front matter.
-
-### Sticky sidebar content
-
-By default Hyde ships with a sidebar that affixes it's content to the bottom of the sidebar. You can optionally disabled this by removing the `.sidebar-sticky` class from the sidebar's `.container`. Sidebar content will then normally flow from top to bottom.
-
-    <!-- Default sidebar -->
-    <div class="sidebar">
-      <div class="container sidebar-sticky">
-        ...
-      </div>
-    </div>
-    
-    <!-- Modified sidebar -->
-    <div class="sidebar">
-      <div class="container">
-        ...
-      </div>
-    </div>
-
 ### Themes
 
 Hyde ships with eight optional themes based on the [base16 color scheme](https://github.com/chriskempson/base16). Apply a theme to change the color scheme (mostly applies to sidebar and links).
@@ -68,21 +42,7 @@ There are eight themes available at this time.
 
 ![Hyde theme classes](https://f.cloud.github.com/assets/98681/1817044/e5b0ec06-6f68-11e3-83d7-acd1942797a1.png)
 
-To use a theme, add the `themeColor` variable under `params`, like so:
-
-**TOML**
-
-    theme = "hyde"
-    
-    [params]
-      themeColor = "theme-base-09"
-
-**YAML**
-
-    theme: "hyde"
-    
-    params:
-      themeColor: "theme-base-09"
+To use a theme, go to `Site Configuration` -> `Additional Settings` -> `Theme`.
 
 To create your own theme, look to the Themes section of [included CSS file](https://github.com/poole/hyde/blob/master/public/css/hyde.css). Copy any existing theme (they're only a few lines of CSS), rename it, and change the provided colors.
 
