@@ -1,3 +1,6 @@
++++
+
++++
 # Hyde
 
 Hyde is a brazen two-column [hugo](https://gohugo.io) theme based on the [Jekyll](http://jekyllrb.com) theme of the same name.
@@ -5,45 +8,37 @@ It pairs a prominent sidebar with uncomplicated content.
 
 ![Hyde screenshot](https://f.cloud.github.com/assets/98681/1831228/42af6c6a-7384-11e3-98fb-e0b923ee0468.png)
 
-
-## Contents
-
-- [Installation](#installation)
-- [Options](#options)
-  - [Sidebar menu](#sidebar-menu)
-  - [Sticky sidebar content](#sticky-sidebar-content)
-  - [Themes](#themes)
-  - [Reverse layout](#reverse-layout)
-  - [Disqus](#disqus)
-  - [Google Analytics](#google-analytics)
-- [Author](#author)
-- [Ported by](#ported-by)
-- [License](#license)
-
-
 ## Installation
 
-To install Hyde as your default theme, first install this repository in the `themes/` directory:
+You've successfully installed your Hyde Theme in a Hugo project.  
+  
+There's a few more settings we need to customize before you can get started.
 
-    $ cd themes/
-    $ git clone https://github.com/spf13/hyde.git
+#### 1. Deployment
 
-Second, specify `hyde` as your default theme in the `config.toml` file. Just add the line
+Currently your site is only visible to you but there's a few options to quickly make your site available to the world.
 
-    theme = "hyde"
+The easiest option in our opinion is Netlify. It's quick to setup and relatively easy to maintain.
 
-at the top of the file.
+1. Go to [https://app.netlify.com/start](https://app.netlify.com/start "https://app.netlify.com/start")
+2. Connect your Git provider and provide Netlify access to your repository (e.g. username/hyde)
+3. Select and Click on your repository
+4. Enter your build settings.
+   * Build Command: `hugo`
+   * Publish Directory: `public`
+5. Add advanced build settings as a new variable.
+   * Key: `HUGO_VERSION` Value: `0.42`
+6. Click on `Deploy Site`
 
+The more powerful option is deployment to AWS and makes sense if you have experience with S3 and Cloudformation.
 
 ## Options
 
 Hyde includes some customizable options, typically applied via classes on the `<body>` element.
 
-
 ### Sidebar menu
 
 Create a list of nav links in the sidebar by assigning "menu=main" in the front matter.
-
 
 ### Sticky sidebar content
 
@@ -65,7 +60,6 @@ By default Hyde ships with a sidebar that affixes it's content to the bottom of 
 </div>
 ```
 
-
 ### Themes
 
 Hyde ships with eight optional themes based on the [base16 color scheme](https://github.com/chriskempson/base16). Apply a theme to change the color scheme (mostly applies to sidebar and links).
@@ -79,6 +73,7 @@ There are eight themes available at this time.
 To use a theme, add the `themeColor` variable under `params`, like so:
 
 **TOML**
+
 ```toml
 theme = "hyde"
 
@@ -87,6 +82,7 @@ theme = "hyde"
 ```
 
 **YAML**
+
 ```yaml
 theme: "hyde"
 
@@ -103,6 +99,7 @@ To create your own theme, look to the Themes section of [included CSS file](http
 To reverse page orientation, add the `layoutReverse` variable under `params`, like so:
 
 **TOML**
+
 ```toml
 theme = "hyde"
 
@@ -111,6 +108,7 @@ theme = "hyde"
 ```
 
 **YAML**
+
 ```yaml
 theme: "hyde"
 
@@ -123,41 +121,48 @@ params:
 You can optionally enable a comment system powered by Disqus for the posts. Simply add the variable `disqusShortname` to your config file.
 
 **TOML**
+
 ```toml
 disqusShortname = "spf13"
 ```
 
 **YAML**
+
 ```yaml
 disqusShortname : spf13
 ```
 
 > **Note:** Previous version 1.0 the Disqus shortname had to be defined inside the `[params]` block.
 
-
 ## Google Analytics
 
 Google Analytics can be enabled by assigning your tracking code to the `googleAnalytics` variable in the config file:
 
 **TOML**
+
 ```toml
 googleAnalytics = "Your tracking code"
 ```
 
 **YAML**
+
 ```yaml
 googleAnalytics: Your tracking code
 ```
 
 ## Author
+
 **Mark Otto**
-- <https://github.com/mdo>
-- <https://twitter.com/mdo>
+
+* [https://github.com/mdo](https://github.com/mdo)
+* [https://twitter.com/mdo](https://twitter.com/mdo)
 
 ## Ported By
+
 **Steve Francia**
-- <https://github.com/spf13>
-- <https://twitter.com/spf13>
+
+* [https://github.com/spf13](https://github.com/spf13)
+* [https://twitter.com/spf13](https://twitter.com/spf13)
 
 ## License
 
