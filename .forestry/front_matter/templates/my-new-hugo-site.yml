@@ -28,5 +28,8 @@ fields:
   - type: boolean
     name: layoutReverse
     label: Reverse Layout
+  - type: text
+    name: disqusShortname
+    label: Disqus Shortname
 pages:
 - config.toml
