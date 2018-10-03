@@ -41,9 +41,7 @@ There are eight themes available at this time.
 
 ![Hyde theme classes](https://f.cloud.github.com/assets/98681/1817044/e5b0ec06-6f68-11e3-83d7-acd1942797a1.png)
 
-To use a theme, go to `Site Configuration` -> `Additional Settings` -> `Theme`.
-
-![](/uploads/theme-settings.png)
+To use a theme, go to `Site Configuration` -> `Additional Settings` -> `Theme` -> Add one of the theme names above.
 
 To create your own theme, look to the Themes section of [included CSS file](https://github.com/poole/hyde/blob/master/public/css/hyde.css). Copy any existing theme (they're only a few lines of CSS), rename it, and change the provided colors.
 
