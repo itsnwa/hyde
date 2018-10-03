@@ -66,23 +66,23 @@ Google Analytics can be enabled by assigning your tracking code to `Site Configu
 
 If you don't have a Google Analytics Account you'll have to sign up for an account [here](https://marketingplatform.google.com/about/analytics/).
 
----
+***
 
-## Author
+### Author
 
 **Mark Otto**
 
 * [https://github.com/mdo](https://github.com/mdo "https://github.com/mdo")
 * [https://twitter.com/mdo](https://twitter.com/mdo "https://twitter.com/mdo")
 
-## Ported By
+### Ported By
 
 **Steve Francia**
 
 * [https://github.com/spf13](https://github.com/spf13 "https://github.com/spf13")
 * [https://twitter.com/spf13](https://twitter.com/spf13 "https://twitter.com/spf13")
 
-## License
+### License
 
 Open sourced under the [MIT license](LICENSE.md).
 
