@@ -59,7 +59,7 @@ You can optionally enable a comment system powered by Disqus for your posts. Sim
 
 Google Analytics can be enabled by assigning your tracking code to `Site Configuration` -> `Additional Settings` -> `Google Analytics Tracking Code`.
 
-If you don't have a Google Analytics Account you'll have to sign up for an account [here](https://marketingplatform.google.com/about/analytics/).
+If you don't have a Google Analytics Account you can sign up for an account [here](https://marketingplatform.google.com/about/analytics/).
 
 ***
 
