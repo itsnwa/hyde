@@ -30,7 +30,7 @@ fields:
     required: true
 - type: field_group
   name: params
-  label: Parameters
+  label: Additional Settings
   fields:
   - type: text
     name: themeColor
