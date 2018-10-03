@@ -18,5 +18,12 @@ fields:
   type: text
   hidden: false
   default: en-us
+- type: field_group
+  name: params
+  label: Parameters
+  fields:
+  - type: text
+    name: themeColor
+    label: Theme Color
 pages:
 - config.toml
