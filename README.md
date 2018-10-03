@@ -1,3 +1,6 @@
++++
+
++++
 # Hyde
 
 Hyde is a brazen two-column [hugo](https://gohugo.io) theme based on the [Jekyll](http://jekyllrb.com) theme of the same name. It pairs a prominent sidebar with uncomplicated content.
@@ -25,7 +28,7 @@ The easiest option in our opinion is Netlify. It's quick to setup and relatively
 5. Add advanced build settings as a new variable.
    * Key: `HUGO_VERSION` Value: `0.42`
 6. Click on `Deploy Site`
-7. Lastly copy your URL (e.g. https://something-something-123456.netlify.com) and add it as your URL in your `Site Configuration` (the link is in the Sidebar).
+7. Lastly copy your URL (e.g. https://something-something-123456.netlify.com/) and add it as your URL in your `Site Configuration` (the link is in the Sidebar).
 
 The more powerful option is deployment to AWS and makes sense if you have experience with S3 and Cloudformation.
 
