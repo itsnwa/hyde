@@ -41,7 +41,7 @@ fields:
   - type: boolean
     name: layoutReverse
     label: Reverse Layout
-    description: You can switch the sidebar to the opposite with this toggle.
+    description: ''
   - type: text
     name: disqusShortname
     label: Disqus Shortname (optional)
