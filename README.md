@@ -44,6 +44,8 @@ There are eight themes available at this time.
 
 To use a theme, go to `Site Configuration` -> `Additional Settings` -> `Theme`.
 
+![](/uploads/theme-settings.png)
+
 To create your own theme, look to the Themes section of [included CSS file](https://github.com/poole/hyde/blob/master/public/css/hyde.css). Copy any existing theme (they're only a few lines of CSS), rename it, and change the provided colors.
 
 ### Reverse layout
