@@ -18,3 +18,5 @@ fields:
   label: Date
   config:
     required: false
+pages:
+- content/about.md
