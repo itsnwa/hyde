@@ -1,0 +1,52 @@
+---
+label: My New Hugo Site
+hide_body: 
+is_partial: 
+fields:
+- name: title
+  label: Title
+  type: text
+  hidden: false
+  default: ''
+- name: baseURL
+  label: Baseurl
+  type: text
+  hidden: false
+  default: ''
+- name: languageCode
+  label: Languagecode
+  type: text
+  hidden: false
+  default: ''
+- name: theme
+  label: Theme
+  type: text
+  hidden: false
+  default: ''
+- name: menu
+  label: Menu
+  type: field_group
+  fields:
+  - name: main
+    label: Main
+    type: field_group_list
+    fields:
+    - name: name
+      label: Name
+      type: text
+      hidden: false
+      default: ''
+    - name: url
+      label: Url
+      type: text
+      hidden: false
+      default: ''
+    - name: weight
+      label: Weight
+      type: text
+      hidden: false
+      default: ''
+    hidden: false
+    default: ''
+  hidden: false
+  default: ''
