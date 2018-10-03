@@ -18,10 +18,5 @@ fields:
   type: text
   hidden: false
   default: en-us
-- name: theme
-  label: Theme
-  type: text
-  hidden: false
-  default: hyde
 pages:
 - config.toml
