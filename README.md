@@ -3,8 +3,7 @@
 +++
 # Hyde
 
-Hyde is a brazen two-column [hugo](https://gohugo.io) theme based on the [Jekyll](http://jekyllrb.com) theme of the same name.
-It pairs a prominent sidebar with uncomplicated content.
+Hyde is a brazen two-column [hugo](https://gohugo.io) theme based on the [Jekyll](http://jekyllrb.com) theme of the same name. It pairs a prominent sidebar with uncomplicated content.
 
 ![Hyde screenshot](https://f.cloud.github.com/assets/98681/1831228/42af6c6a-7384-11e3-98fb-e0b923ee0468.png)
 
@@ -29,7 +28,7 @@ The easiest option in our opinion is Netlify. It's quick to setup and relatively
 5. Add advanced build settings as a new variable.
    * Key: `HUGO_VERSION` Value: `0.42`
 6. Click on `Deploy Site`
-7. Lastly copy your URL (e.g. https://something-something-123456.netlify.com) and add it as your URL in your Site's [configuration](#/pages/config-toml).
+7. Lastly copy your URL (e.g. https://something-something-123456.netlify.com) and add it as your URL in your `Site Configuration` (the link is in the Sidebar).
 
 The more powerful option is deployment to AWS and makes sense if you have experience with S3 and Cloudformation.
 
@@ -45,21 +44,19 @@ Create a list of nav links in the sidebar by assigning "menu=main" in the front 
 
 By default Hyde ships with a sidebar that affixes it's content to the bottom of the sidebar. You can optionally disabled this by removing the `.sidebar-sticky` class from the sidebar's `.container`. Sidebar content will then normally flow from top to bottom.
 
-```html
-<!-- Default sidebar -->
-<div class="sidebar">
-  <div class="container sidebar-sticky">
-    ...
-  </div>
-</div>
-
-<!-- Modified sidebar -->
-<div class="sidebar">
-  <div class="container">
-    ...
-  </div>
-</div>
-```
+    <!-- Default sidebar -->
+    <div class="sidebar">
+      <div class="container sidebar-sticky">
+        ...
+      </div>
+    </div>
+    
+    <!-- Modified sidebar -->
+    <div class="sidebar">
+      <div class="container">
+        ...
+      </div>
+    </div>
 
 ### Themes
 
@@ -75,21 +72,17 @@ To use a theme, add the `themeColor` variable under `params`, like so:
 
 **TOML**
 
-```toml
-theme = "hyde"
-
-[params]
-  themeColor = "theme-base-09"
-```
+    theme = "hyde"
+    
+    [params]
+      themeColor = "theme-base-09"
 
 **YAML**
 
-```yaml
-theme: "hyde"
-
-params:
-  themeColor: "theme-base-09"
-```
+    theme: "hyde"
+    
+    params:
+      themeColor: "theme-base-09"
 
 To create your own theme, look to the Themes section of [included CSS file](https://github.com/poole/hyde/blob/master/public/css/hyde.css). Copy any existing theme (they're only a few lines of CSS), rename it, and change the provided colors.
 
@@ -101,21 +94,17 @@ To reverse page orientation, add the `layoutReverse` variable under `params`, li
 
 **TOML**
 
-```toml
-theme = "hyde"
-
-[params]
-  layoutReverse = true
-```
+    theme = "hyde"
+    
+    [params]
+      layoutReverse = true
 
 **YAML**
 
-```yaml
-theme: "hyde"
-
-params:
-  layoutReverse: true
-```
+    theme: "hyde"
+    
+    params:
+      layoutReverse: true
 
 ### Disqus
 
@@ -123,15 +112,11 @@ You can optionally enable a comment system powered by Disqus for the posts. Simp
 
 **TOML**
 
-```toml
-disqusShortname = "spf13"
-```
+    disqusShortname = "spf13"
 
 **YAML**
 
-```yaml
-disqusShortname : spf13
-```
+    disqusShortname : spf13
 
 > **Note:** Previous version 1.0 the Disqus shortname had to be defined inside the `[params]` block.
 
@@ -141,29 +126,25 @@ Google Analytics can be enabled by assigning your tracking code to the `googleAn
 
 **TOML**
 
-```toml
-googleAnalytics = "Your tracking code"
-```
+    googleAnalytics = "Your tracking code"
 
 **YAML**
 
-```yaml
-googleAnalytics: Your tracking code
-```
+    googleAnalytics: Your tracking code
 
 ## Author
 
 **Mark Otto**
 
-* [https://github.com/mdo](https://github.com/mdo)
-* [https://twitter.com/mdo](https://twitter.com/mdo)
+* [https://github.com/mdo](https://github.com/mdo "https://github.com/mdo")
+* [https://twitter.com/mdo](https://twitter.com/mdo "https://twitter.com/mdo")
 
 ## Ported By
 
 **Steve Francia**
 
-* [https://github.com/spf13](https://github.com/spf13)
-* [https://twitter.com/spf13](https://twitter.com/spf13)
+* [https://github.com/spf13](https://github.com/spf13 "https://github.com/spf13")
+* [https://twitter.com/spf13](https://twitter.com/spf13 "https://twitter.com/spf13")
 
 ## License
 
