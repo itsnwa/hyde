@@ -6,3 +6,5 @@ title = "My New Hugo Site"
 name = "Github"
 url = "http://github.com"
 weight = 2
+[params]
+themeColor = "theme-base-09"
