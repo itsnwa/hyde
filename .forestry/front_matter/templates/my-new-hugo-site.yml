@@ -1,52 +1,25 @@
 ---
-label: My New Hugo Site
-hide_body: 
-is_partial: 
+label: Config
+hide_body: true
+is_partial: false
 fields:
 - name: title
   label: Title
   type: text
   hidden: false
-  default: ''
+  default: My New Hugo Site
 - name: baseURL
   label: Baseurl
   type: text
   hidden: false
-  default: ''
+  default: http://example.com
 - name: languageCode
   label: Languagecode
   type: text
   hidden: false
-  default: ''
+  default: en-us
 - name: theme
   label: Theme
   type: text
   hidden: false
-  default: ''
-- name: menu
-  label: Menu
-  type: field_group
-  fields:
-  - name: main
-    label: Main
-    type: field_group_list
-    fields:
-    - name: name
-      label: Name
-      type: text
-      hidden: false
-      default: ''
-    - name: url
-      label: Url
-      type: text
-      hidden: false
-      default: ''
-    - name: weight
-      label: Weight
-      type: text
-      hidden: false
-      default: ''
-    hidden: false
-    default: ''
-  hidden: false
-  default: ''
+  default: hyde
