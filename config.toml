@@ -1,4 +1,4 @@
-baseURL = "https://distracted-wescoff-100219.netlify.com"
+baseURL = "https://distracted-wescoff-100219.netlify.com/"
 languageCode = "en-us"
 theme = "hyde"
 title = "My New Hugo Site"
@@ -6,5 +6,5 @@ title = "My New Hugo Site"
 disqusShortname = ""
 googleAnalytics = ""
 layoutReverse = false
-themeColor = ""
 theme = "hyde"
+themeColor = ""
