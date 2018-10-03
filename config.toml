@@ -2,3 +2,7 @@ baseURL = "http://example.org/"
 languageCode = "en-us"
 theme = "hyde"
 title = "My New Hugo Site"
+[[menu.main]]
+name = "Github"
+url = "http://github.com"
+weight = 2
