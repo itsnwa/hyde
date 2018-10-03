@@ -7,5 +7,5 @@ name = "Github"
 url = "http://github.com"
 weight = 2
 [params]
-layoutReverse = true
-themeColor = "theme-base-09"
+layoutReverse = false
+themeColor = ""
