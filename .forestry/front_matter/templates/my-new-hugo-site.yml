@@ -25,5 +25,8 @@ fields:
   - type: text
     name: themeColor
     label: Theme Color
+  - type: boolean
+    name: layoutReverse
+    label: Reverse Layout
 pages:
 - config.toml
