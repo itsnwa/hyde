@@ -54,33 +54,19 @@ To create your own theme, look to the Themes section of [included CSS file](http
 
 ![Hyde with reverse layout](https://f.cloud.github.com/assets/98681/1831230/42b0d3ac-7384-11e3-8d54-2065afd03f9e.png)
 
-To reverse page orientation activate `Reverse Layout` in `Site Configuration` -> `Additional Settings`. 
+To reverse page orientation activate `Reverse Layout` in `Site Configuration` -> `Additional Settings`.
 
 #### Commentary with Disqus
 
 You can optionally enable a comment system powered by Disqus for the posts. Simply add your Disqus Shortname in `Site Configuration` -> `Additional Settings` -> `Disqus Shortname`.
 
-**TOML**
+#### Google Analytics
 
-    disqusShortname = "spf13"
+Google Analytics can be enabled by assigning your tracking code to `Site Configuration` -> `Additional Settings` -> `Google Analytics Tracking Code`.
 
-**YAML**
+If you don't have a Google Analytics Account you'll have to sign up for an account [here](https://marketingplatform.google.com/about/analytics/).
 
-    disqusShortname : spf13
-
-> **Note:** Previous version 1.0 the Disqus shortname had to be defined inside the `[params]` block.
-
-## Google Analytics
-
-Google Analytics can be enabled by assigning your tracking code to the `googleAnalytics` variable in the config file:
-
-**TOML**
-
-    googleAnalytics = "Your tracking code"
-
-**YAML**
-
-    googleAnalytics: Your tracking code
+---
 
 ## Author
 
