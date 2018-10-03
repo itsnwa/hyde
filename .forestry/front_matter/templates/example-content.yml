@@ -19,4 +19,5 @@ fields:
   hidden: false
   default: ''
 pages:
+- content/posts/example-content.md
 - content/posts/introducing-hyde.md
