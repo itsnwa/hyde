@@ -53,7 +53,7 @@ To reverse page orientation activate `Reverse Layout` in `Site Configuration` ->
 
 #### Commentary with Disqus
 
-You can optionally enable a comment system powered by Disqus for the posts. Simply add your Disqus Shortname in `Site Configuration` -> `Additional Settings` -> `Disqus Shortname`.
+You can optionally enable a comment system powered by Disqus for your posts. Simply add your Disqus Shortname in `Site Configuration` -> `Additional Settings` -> `Disqus Shortname`.
 
 #### Google Analytics
 
