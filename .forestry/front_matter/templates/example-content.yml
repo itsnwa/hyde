@@ -18,3 +18,5 @@ fields:
   type: datetime
   hidden: false
   default: ''
+pages:
+- content/posts/introducing-hyde.md
