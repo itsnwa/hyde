@@ -15,8 +15,8 @@ fields:
   label: Baseurl
   type: text
   hidden: false
-  default: http://example.com
-  description: Enter your URL here (e.g. http://your-site.com)
+  default: http://example.com/
+  description: Enter your URL here (e.g. http://your-site.com/)
   config:
     required: true
 - name: languageCode
