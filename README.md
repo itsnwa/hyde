@@ -13,7 +13,7 @@ You've successfully installed your Hyde Theme in a Hugo project.
 
 There's a few more settings we need to customize before you can get started.
 
-#### 1. Deployment
+### 1. Deployment
 
 Currently your site is only visible to you but there's a few options to quickly make your site available to the world.
 
@@ -32,7 +32,9 @@ The easiest option in our opinion is Netlify. It's quick to setup and relatively
 
 The more powerful option is deployment to AWS and makes sense if you have experience with S3 and Cloudformation.
 
-### Themes
+### 2. Advanced Settings
+
+#### Themes
 
 Hyde ships with eight optional themes based on the [base16 color scheme](https://github.com/chriskempson/base16). Apply a theme to change the color scheme (mostly applies to sidebar and links).
 
@@ -48,29 +50,15 @@ To use a theme, go to `Site Configuration` -> `Additional Settings` -> `Theme`.
 
 To create your own theme, look to the Themes section of [included CSS file](https://github.com/poole/hyde/blob/master/public/css/hyde.css). Copy any existing theme (they're only a few lines of CSS), rename it, and change the provided colors.
 
-### Reverse layout
+#### Reverse layout
 
 ![Hyde with reverse layout](https://f.cloud.github.com/assets/98681/1831230/42b0d3ac-7384-11e3-8d54-2065afd03f9e.png)
 
-To reverse page orientation, add the `layoutReverse` variable under `params`, like so:
+To reverse page orientation activate `Reverse Layout` in `Site Configuration` -> `Additional Settings`. 
 
-**TOML**
+#### Commentary with Disqus
 
-    theme = "hyde"
-    
-    [params]
-      layoutReverse = true
-
-**YAML**
-
-    theme: "hyde"
-    
-    params:
-      layoutReverse: true
-
-### Disqus
-
-You can optionally enable a comment system powered by Disqus for the posts. Simply add the variable `disqusShortname` to your config file.
+You can optionally enable a comment system powered by Disqus for the posts. Simply add your Disqus Shortname in `Site Configuration` -> `Additional Settings` -> `Disqus Shortname`.
 
 **TOML**
 
