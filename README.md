@@ -29,6 +29,8 @@ The easiest option in our opinion is Netlify. It's quick to setup and relatively
 
 The more powerful option is deployment to AWS and makes sense if you have experience with S3 and Cloudformation. You can find detailed documentation and a deployment template [here](https://forestry.io/docs/hosting/s3-cloudfront-stack/).
 
+For other deployment options please check out our list [here](https://forestry.io/docs/hosting/) (including Webhooks, FTP/SFTP and Github Pages).
+
 ### 2. Advanced Settings
 
 #### Themes
@@ -78,6 +80,8 @@ To create a new page or post click on *Create New* and select *Post* (or *Page* 
 On the left side you'll find general settings (e.g. title, subtitle, date etc.) and on the other side you have access to the Forestry Editor. The toolbar at the bottom of the Editor will help you format and more easily navigate the editor.
 
 ![](https://forestry.io/img/theme/toolbar.png)
+
+All new posts/pages start out as draft. To publish a post/page you'll have to turn *Draft* to *OFF* and click on *Save*. If you've set up the site as outlined in the **Deployment** section, Forestry will no build your site and your hosting provider (Netlify, AWS, etc.) is going to update your website shortly.
 
 ***
 
