@@ -81,13 +81,18 @@ On the left side you'll find general settings (e.g. title, subtitle, date etc.) 
 
 ![](https://forestry.io/img/theme/toolbar.png)
 
-#### Publish a Draft
+#### Preview
+
+You can preview any post or page to see what it looks like before you publish your changes. Simply click on <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"><g fill="none" fill-rule="evenodd" stroke="currentcolor" stroke-width="1.2"><path d="M12 18c6 0 10-6 10-6s-4-6-10-6-10 6-10 6 4 6 10 6z"></path><circle cx="12" cy="12" r="2"></circle></g></svg> in the top-right corner of your editor.
+
+#### Publish
 
 All new posts/pages start out as draft. To publish a post/page you'll have to turn **Draft** to **OFF** and click on **Save**. If you've set up the site as outlined in the **Deployment** section, Forestry will no build your site and your hosting provider (Netlify, AWS, etc.) is going to update your website shortly.
 
 ![](https://forestry.io/img/theme/publish.png)
 
 #### More Information on Editing with Forestry [here](https://forestry.io/docs/editing/markdown-editor/)
+#### The full documentation for Developers using Forestry can be found [here](https://forestry.io/docs/)
 
 ***
 
