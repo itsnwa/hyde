@@ -6,7 +6,7 @@ webhook_url:
 sections:
 - type: document
   path: README.md
-  label: Welcome
+  label: Welcome - Start Here!
   read_only: true
 - type: document
   path: config.toml
