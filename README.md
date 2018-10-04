@@ -77,7 +77,7 @@ To create a new page or post click on *Create New* and select *Post* (or *Page* 
 
 On the left side you'll find general settings (e.g. title, subtitle, date etc.) and on the other side you have access to the Forestry Editor. The toolbar at the bottom of the Editor will help you format and more easily navigate the editor.
 
-
+![](https://forestry.io/img/theme/toolbar.png)
 
 ***
 
