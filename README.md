@@ -70,7 +70,7 @@ Your site is completely editable in Forestry. The Hyde theme is a simple respons
 
 #### Creating and Editing A New Page/Post
 
-Pages and Post are separated into two different categories as Pages are supposed to be listed in the sidebar menu and Posts are only listed in the main window on your site.
+Pages and Posts are separated into two different categories as Pages are supposed to be listed in the sidebar menu and Posts are only listed in the main window on your site. 
 
 ***
 
