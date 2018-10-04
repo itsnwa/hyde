@@ -43,6 +43,8 @@ There are eight themes available at this time.
 
 To use a theme, go to `Site Configuration` -> `Additional Settings` -> `Theme` -> Add one of the theme names above.
 
+![](https://forestry.io/img/theme/theme-settings-hyde.png)
+
 To create your own theme, look to the Themes section of [included CSS file](https://github.com/poole/hyde/blob/master/public/css/hyde.css). Copy any existing theme (they're only a few lines of CSS), rename it, and change the provided colors.
 
 #### Reverse layout
@@ -67,7 +69,15 @@ Your site is completely editable in Forestry. The Hyde theme is a simple respons
 
 #### Creating and Editing A New Page/Post
 
-Pages and Posts are separated into two different categories as Pages are supposed to be listed in the sidebar menu and Posts are only listed in the main window on your site. 
+Pages and Posts are separated into two different categories as Pages are supposed to be listed in the sidebar menu and Posts are only listed in the main window on your site.
+
+To create a new page or post click on *Create New* and select *Post* (or *Page* depending what section you are in). Enter a title and click *Create* to proceed to the editor. 
+
+![](https://forestry.io/img/theme/create-new.png)
+
+On the left side you'll find general settings (e.g. title, subtitle, date etc.) and on the other side you have access to the Forestry Editor. The toolbar at the bottom of the Editor will help you format and more easily navigate the editor.
+
+
 
 ***
 
