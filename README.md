@@ -1,3 +1,6 @@
++++
+
++++
 # Hyde
 
 Hyde is a brazen two-column [hugo](https://gohugo.io) theme based on the [Jekyll](http://jekyllrb.com) theme of the same name. It pairs a prominent sidebar with uncomplicated content.
@@ -5,6 +8,7 @@ Hyde is a brazen two-column [hugo](https://gohugo.io) theme based on the [Jekyll
 ![Hyde screenshot](https://f.cloud.github.com/assets/98681/1831228/42af6c6a-7384-11e3-98fb-e0b923ee0468.png)
 
 ## First Steps
+
 You've successfully installed your Hyde Theme in a Hugo project.
 
 There's a few more settings we need to customize before you can get started.
@@ -59,6 +63,14 @@ You can optionally enable a comment system powered by Disqus for your posts. Sim
 Google Analytics can be enabled by assigning your tracking code to `Site Configuration` -> `Additional Settings` -> `Google Analytics Tracking Code`.
 
 If you don't have a Google Analytics Account you can sign up for an account [here](https://marketingplatform.google.com/about/analytics/).
+
+### 3. Editing in Forestry
+
+Your site is completely editable in Forestry. The Hyde theme is a simple responsive blog completely based on posts and a sidebar menu.
+
+#### Creating and Editing A New Page/Post
+
+Pages and Post are separated into two different categories as Pages are supposed to be listed in the sidebar menu and Posts are only listed in the main window on your site.
 
 ***
 
