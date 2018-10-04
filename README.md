@@ -91,8 +91,8 @@ All new posts/pages start out as draft. To publish a post/page you'll have to tu
 
 ![](https://forestry.io/img/theme/publish.png)
 
-#### More Information on Editing with Forestry [here](https://forestry.io/docs/editing/markdown-editor/)
-#### The full documentation for Developers using Forestry can be found [here](https://forestry.io/docs/)
+*More Information on Editing with Forestry [here](https://forestry.io/docs/editing/markdown-editor/)*
+*The full documentation for Developers using Forestry can be found [here](https://forestry.io/docs/)*
 
 ***
 
