@@ -81,7 +81,11 @@ On the left side you'll find general settings (e.g. title, subtitle, date etc.) 
 
 ![](https://forestry.io/img/theme/toolbar.png)
 
-All new posts/pages start out as draft. To publish a post/page you'll have to turn *Draft* to *OFF* and click on *Save*. If you've set up the site as outlined in the **Deployment** section, Forestry will no build your site and your hosting provider (Netlify, AWS, etc.) is going to update your website shortly.
+#### Publish a Draft
+
+All new posts/pages start out as draft. To publish a post/page you'll have to turn **Draft** to **OFF** and click on **Save**. If you've set up the site as outlined in the **Deployment** section, Forestry will no build your site and your hosting provider (Netlify, AWS, etc.) is going to update your website shortly.
+
+![](https://forestry.io/img/theme/publish.png)
 
 ***
 
